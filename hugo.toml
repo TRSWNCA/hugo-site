@@ -1,0 +1,40 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "trswnca's\nNotebook"
+theme = 'diary'
+
+[[module.mounts]]
+    source = 'C:\\Users\\TRSWNCA\\obsidian-files\\hugo'
+    target = 'content'
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 2
+
+[params]
+subtitle = "知足且上进\n温柔且坚定"
+enableLaTeX = true
+# enableReadingTime = true
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 3
+
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 2
+
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
