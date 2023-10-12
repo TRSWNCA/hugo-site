@@ -4,7 +4,7 @@ title = "trswnca's\nNotebook"
 theme = 'diary'
 
 [[module.mounts]]
-    source = 'C:\\Users\\TRSWNCA\\obsidian-files\\hugo'
+    source = '..\\obsidian-files\\hugo'
     target = 'content'
 
 [markup]
