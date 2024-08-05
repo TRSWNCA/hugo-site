@@ -1,12 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://blog.trswnca.cc/'
 languageCode = 'en-us'
 title = "trswnca's\nNotebook"
 theme = 'diary'
+buildDrafts = false
 
 [[module.mounts]]
-    # source = 'C:\\Users\\TRSWNCA\\obsidian-files\\hugo'
-    source = '../obsidian-files/hugo'
+    source = '../obsidian-files/'
+    excludeFiles = ['/thoughts/**', '/templates/**', '/diary/**', '/bibtex/**']
     target = 'content'
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [markup]
   [markup.highlight]
@@ -26,16 +30,18 @@ enableLaTeX = true
 # enableReadingTime = true
 
 [[menu.main]]
-url = "/categories"
-name = "Categories"
+url = "/notebook"
+name = "技术笔记"
 weight = 3
 
 [[menu.main]]
-url = "/tags"
-name = "Tags"
+url = "/papers"
+name = "论文笔记"
 weight = 2
 
 [[menu.main]]
-url = "/posts"
-name = "Archive"
-weight = 1
+url = "/tags"
+name = "标签分类"
+weight = 100
+
+

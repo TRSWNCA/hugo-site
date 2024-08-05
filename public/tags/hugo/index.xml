@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on trswnca's
-Notebook</title><link>https://example.org/tags/hugo/</link><description>Recent content in Hugo on trswnca's
-Notebook</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 Oct 2023 19:07:23 +0800</lastBuildDate><atom:link href="https://example.org/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Notebook</title><link>https://example.org/posts/hugo-notebook/</link><pubDate>Wed, 04 Oct 2023 19:07:23 +0800</pubDate><guid>https://example.org/posts/hugo-notebook/</guid><description>&lt;h1 id="安装">安装&lt;/h1>
-&lt;p>由于工作环境选择了Windows，所以需要进行一点修改和配置。首先Hugo是不支持cmd和Windows Powershell的，所以以下的所有内容都将在Git bash或Powershell下执行。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>winget install Hugo.Hugo.Extended
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
