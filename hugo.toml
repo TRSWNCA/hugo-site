@@ -1,4 +1,4 @@
-baseURL = 'http://blog.trswnca.cc/'
+baseURL = 'http://trswnca.cc/'
 languageCode = 'en-us'
 title = "trswnca's\nNotebook"
 theme = 'diary'
