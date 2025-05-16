@@ -1,4 +1,4 @@
-baseURL = 'http://trswnca.cc/'
+baseURL = 'https://blog.trswnca.cc/'
 languageCode = 'en-us'
 title = "trswnca's\nNotebook"
 theme = 'diary'
@@ -27,6 +27,7 @@ buildDrafts = false
 [params]
 subtitle = "知足且上进\n温柔且坚定"
 enableLaTeX = true
+favicon = '/img/icon.png'
 # enableReadingTime = true
 
 [[menu.main]]
